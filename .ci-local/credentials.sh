@@ -31,7 +31,7 @@ cp -v ".ci/credentials/APK Signing/keystore.jks" \
 mkdir -p "${HOME}/.gradle" ||
   fatal "could not create ${HOME}/.gradle"
 
-cat ".ci/credentials/APK Signing/keystore.properties" >> "${HOME}/.gradle/gradle.properties" ||
+cat ".ci/credentials/APK Signing/nypl-keystore.properties" >> "${HOME}/.gradle/gradle.properties" ||
   fatal "could not read keystore properties"
 
 CREDENTIALS_PATH=$(realpath ".ci/credentials") ||
