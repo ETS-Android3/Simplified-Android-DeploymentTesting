@@ -21,7 +21,7 @@ info()
 
 info "installing keystore"
 
-cp -v ".ci/credentials/APK Signing/keystore.jks" \
+cp -v ".ci/credentials/APK Signing/nypl-keystore.jks" \
   "release.jks" || exit 1
 
 #------------------------------------------------------------------------
