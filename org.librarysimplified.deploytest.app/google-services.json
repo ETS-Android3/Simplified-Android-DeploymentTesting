@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "220408294534",
+    "firebase_url": "https://simplye-nypl.firebaseio.com",
+    "project_id": "simplye-nypl",
+    "storage_bucket": "simplye-nypl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220408294534:android:4286250ba2a3537901f507",
+        "android_client_info": {
+          "package_name": "org.librarysimplified.deployment_testing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220408294534-4vee7v894mol1bmq3sfqasq56i8jfnnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkM8WKKf-LCL0dMldtvKx5dj6eVAmpCew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220408294534-4vee7v894mol1bmq3sfqasq56i8jfnnj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "220408294534-a53e7g2gp34con15je6hkodt7f9j30fk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.nypl.labs.SimplyE"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'org.librarysimplified.deploytest'
+
+include ':org.librarysimplified.deploytest.app'
