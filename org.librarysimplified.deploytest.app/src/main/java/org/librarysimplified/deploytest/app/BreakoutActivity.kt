@@ -6,14 +6,14 @@ import org.librarysimplified.deployment_testing.R
 
 class BreakoutActivity : AppCompatActivity() {
 
-    private lateinit var breakoutView: BreakoutView
+  private lateinit var breakoutView: BreakoutView
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
 
-        this.setTheme(R.style.Blank)
-        this.setContentView(R.layout.main)
+    this.setTheme(R.style.Blank)
+    this.setContentView(R.layout.main)
 
-        this.breakoutView = this.findViewById(R.id.breakoutView)
-    }
+    this.breakoutView = this.findViewById(R.id.breakoutView)
+  }
 }

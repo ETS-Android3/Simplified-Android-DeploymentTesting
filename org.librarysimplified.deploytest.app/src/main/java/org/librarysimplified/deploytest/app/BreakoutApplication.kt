@@ -5,10 +5,10 @@ import org.slf4j.LoggerFactory
 
 class BreakoutApplication : Application() {
 
-    private val logger = LoggerFactory.getLogger(BreakoutApplication::class.java)
+  private val logger = LoggerFactory.getLogger(BreakoutApplication::class.java)
 
-    override fun onCreate() {
-        super.onCreate()
-        this.logger.debug("starting")
-    }
+  override fun onCreate() {
+    super.onCreate()
+    this.logger.debug("starting")
+  }
 }
