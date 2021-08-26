@@ -21,7 +21,7 @@ info()
 
 info "installing keystore"
 
-cp -v ".ci/credentials/APK Signing/nypl-keystore.jks" \
+cp -v ".ci/credentials/APK Signing/nypl-keystore-2021.jks" \
   "release.jks" || exit 1
 
 #------------------------------------------------------------------------
@@ -31,8 +31,8 @@ cp -v ".ci/credentials/APK Signing/nypl-keystore.jks" \
 mkdir -p "${HOME}/.gradle" ||
   fatal "could not create ${HOME}/.gradle"
 
-cat ".ci/credentials/APK Signing/nypl-keystore.properties" >> "${HOME}/.gradle/gradle.properties" ||
-  fatal "could not read keystore properties"
+cat ".ci/credentials/APK Signing/nypl-keystore-2021.properties" >> "${HOME}/.gradle/gradle.properties" ||
+  fatal "could not read keystore-2021 properties"
 
 CREDENTIALS_PATH=$(realpath ".ci/credentials") ||
   fatal "could not resolve credentials path"
