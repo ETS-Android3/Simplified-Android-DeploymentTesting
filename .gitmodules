@@ -1,3 +1,4 @@
 [submodule ".ci"]
-	path = .ci
-	url = https://github.com/NYPL-Simplified/Simplified-Android-CI
+path = .ci
+url = https://github.com/NYPL-Simplified/Simplified-Android-CI
+branch = store-automation
