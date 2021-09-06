@@ -37,5 +37,5 @@ cat ".ci/credentials/APK Signing/nypl-keystore-2021.properties" >> "${HOME}/.gra
 CREDENTIALS_PATH=$(realpath ".ci/credentials") ||
   fatal "could not resolve credentials path"
 
-cp "${CREDENTIALS_PATH}/PlayStore/play_store_api_key.json" "org.thepalaceproject.deploytest.app/play_store_api_key.json" ||
+cp "${CREDENTIALS_PATH}/PlayStore/play_store_api_key.json" "org.librarysimplified.deploytest.app/play_store_api_key.json" ||
   fatal "could not copy Play Store key"
