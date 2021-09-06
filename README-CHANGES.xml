@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <c:changelog project="SECIT" xmlns:c="urn:com.io7m.changelog:4.0">
   <c:releases>
-    <c:release date="2021-09-06T11:10:20+00:00" is-open="false" ticket-system="org.nypl.jira" version="0.0.2">
+    <c:release date="2021-09-06T00:00:00+00:00" is-open="false" ticket-system="org.nypl.jira" version="0.0.2">
       <c:changes>
         <c:change date="2021-09-06T00:00:00+00:00" summary="Fixed bugs"/>
+      </c:changes>
+    </c:release>
+    <c:release date="2021-09-06T11:14:52+00:00" is-open="false" ticket-system="org.nypl.jira" version="0.0.3">
+      <c:changes>
+        <c:change date="2021-09-06T00:00:00+00:00" summary="Adjust ball physics"/>
       </c:changes>
     </c:release>
   </c:releases>
