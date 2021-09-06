@@ -11,9 +11,14 @@
         <c:change date="2021-09-06T00:00:00+00:00" summary="Adjust ball physics"/>
       </c:changes>
     </c:release>
-    <c:release date="2021-09-06T11:21:04+00:00" is-open="false" ticket-system="org.nypl.jira" version="0.0.4">
+    <c:release date="2021-09-06T00:00:00+00:00" is-open="false" ticket-system="org.nypl.jira" version="0.0.4">
       <c:changes>
         <c:change date="2021-09-06T00:00:00+00:00" summary="Fix horizontal ball bouncing"/>
+      </c:changes>
+    </c:release>
+    <c:release date="2021-09-06T11:27:55+00:00" is-open="false" ticket-system="org.nypl.jira" version="0.0.5">
+      <c:changes>
+        <c:change date="2021-09-06T00:00:00+00:00" summary="Bug fixes"/>
       </c:changes>
     </c:release>
   </c:releases>
